@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RB-Lab/node-ms-boilerplate.git"
+  },
+  "author": "RB-Lab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RB-Lab/node-ms-boilerplate/issues"
+  },
+  "homepage": "https://github.com/RB-Lab/node-ms-boilerplate#readme",
+  "dependencies": {
+  }
+}
