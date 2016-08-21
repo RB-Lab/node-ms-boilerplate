@@ -1,5 +1,6 @@
 {
 	"extends": "airbnb-base",
+	"plugins": ["smells"],
 	"parserOptions": {
 		"ecmaVersion": 6
 	},
@@ -18,6 +19,13 @@
 		}],
 		"comma-dangle": ["warn", "never"],
 		"object-curly-spacing": ["error", "never"],
-		"radix": "off"
+		"radix": "off",
+
+		"smells/no-switch": "warn",
+		"smells/no-complex-switch-case": "warn",
+		"smells/no-setinterval": "warn",
+		"smells/no-this-assign": "warn",
+		"smells/no-complex-string-concat": "warn",
+		"smells/no-complex-chaining": "warn"
 	}
 }
