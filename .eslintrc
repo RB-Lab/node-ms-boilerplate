@@ -25,7 +25,6 @@
 		"smells/no-complex-switch-case": "warn",
 		"smells/no-setinterval": "warn",
 		"smells/no-this-assign": "warn",
-		"smells/no-complex-string-concat": "warn",
-		"smells/no-complex-chaining": "warn"
+		"smells/no-complex-string-concat": "warn"
 	}
 }
